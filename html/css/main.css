@@ -1,0 +1,101 @@
+/* 
+kfp blue: #6BCACF
+kfp red: #E93558
+*/
+
+body {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+html, body {
+    height: 100%;
+    
+}
+
+.bg-blue{
+    background: #6BCACF;
+    color: white;
+}
+
+.logo{
+    display: block;
+    margin: 0 auto;
+}
+
+img{
+    max-width: 100% !important;
+}
+
+.schedule-box{
+    border: 10px solid #6BCACF;
+    padding: 10px 15px;
+    margin: 15px auto;
+        position: relative;
+        max-width: 650px;
+}
+
+.past{
+    background: #f0f0f0;
+    opacity: 0.5;
+}
+
+.next-event{
+    color: #6BCACF;
+    text-transform: uppercase;
+    display: block;
+}
+
+.schedule-box h3{
+    color: #E93558 !important;
+    font-weight: bold;
+    margin-bottom: 0;
+
+}
+
+.schedule-box .btn{
+    background: #E93558 !important;
+    font-weight: bold;
+    color: white;
+    border-radius: 0;
+display: block;
+    margin: 10px auto 0 auto;
+    max-width: 400px;
+    
+
+}
+
+.schedule-box .btn:hover{
+    background: #FB7791 !important;
+}
+
+main{
+    padding-bottom: 100px;
+}
+
+.page-anchor{
+    padding-top: 100px;
+}
+
+.date{
+    color: #E93558;
+    text-transform: uppercase;
+
+    position: absolute;
+    right: 5px;
+    top: 5px;
+    font-size: 22px;
+
+font-weight: bold;
+}
+
+
+.divider{
+    padding-top: 100px;
+    font-size: 45px;
+    color: #6BCACF;
+    text-align: center;
+}
+
+.divider i{
+    margin: 0 10px;
+}
